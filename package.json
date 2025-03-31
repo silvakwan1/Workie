@@ -1,0 +1,25 @@
+{
+  "name": "workie",
+  "version": "1.0.0",
+  "description": "Workie é um bot criado para facilitar sua vida como freelancer, conectando você diretamente com as últimas oportunidades de trabalho em plataformas como a Workana. Ele monitora continuamente as vagas mais recentes e as traz diretamente para você, ajudando a otimizar seu tempo e garantir que você não perca oportunidades valiosas.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --watch index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silvakwan1/Workie.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/silvakwan1/Workie/issues"
+  },
+  "homepage": "https://github.com/silvakwan1/Workie#readme",
+  "dependencies": {
+    "puppeteer": "^24.4.0"
+  }
+}

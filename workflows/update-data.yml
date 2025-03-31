@@ -1,0 +1,15 @@
+name: Atualizar Dados Vercel
+
+on:
+  schedule:
+    - cron: "*/5 * * * *" # Isso executa a cada 5 minutos. O cron não permite 5 segundos diretamente.
+  workflow_dispatch:
+
+jobs:
+  update_data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Executar Request para Vercel
+        run: |
+          curl -X GET https://[YOUR_VERCEL_PROJECT_URL]/api

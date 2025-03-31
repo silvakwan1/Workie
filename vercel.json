@@ -11,5 +11,8 @@
       "src": "/(.*)",
       "dest": "/index.js"
     }
-  ]
+  ],
+  "env": {
+    "CHROME_PATH": "/usr/bin/chromium-browser"
+  }
 }
